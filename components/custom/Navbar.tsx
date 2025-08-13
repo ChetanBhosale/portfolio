@@ -1,6 +1,4 @@
 import React from 'react'
-import { Button } from '@/components/ui/button'
-import Link from 'next/link'
 import { AnimatedShinyText } from '../magicui/animated-shiny-text'
 import { ArrowRightIcon } from 'lucide-react'
 

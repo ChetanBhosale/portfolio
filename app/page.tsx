@@ -9,7 +9,7 @@ const Page = () => {
         <div className='flex-1 space-y-6'>
           <div className='space-y-4'>
             <h1 className='text-5xl font-bold font-[var(--font-archivo-black)]'>
-              Hi, I'm Chetan Bhosale ✌️
+              Hi, I&apos;m Chetan Bhosale ✌️
             </h1>
             <p className='text-lg text-muted-foreground font-[var(--font-montserrat)] leading-relaxed max-w-2xl'>
               I am a Full Stack Software Developer, interested in building solutions that help people.
