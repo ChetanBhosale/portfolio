@@ -59,7 +59,7 @@ const Page = () => {
         </h2>
         <div className='flex '>
           <a 
-            href="https://linkedin.com/in/your-profile" 
+            href="https://www.linkedin.com/in/chetan-bhosale-092868231/" 
             target="_blank" 
             rel="noopener noreferrer"
             className='w-12 mr-2 cursor-pointer h-12 bg-primary/10 text-primary border border-primary/20 rounded-md hover:bg-primary/20 transition-colors flex items-center justify-center'
@@ -70,7 +70,7 @@ const Page = () => {
           </a>
           
           <a 
-            href="https://github.com/your-username" 
+            href="https://github.com/ChetanBhosale" 
             target="_blank" 
             rel="noopener noreferrer"
             className='w-12 cursor-pointer h-12 bg-primary/10 text-primary border border-primary/20 rounded-md hover:bg-primary/20 transition-colors flex items-center justify-center'
