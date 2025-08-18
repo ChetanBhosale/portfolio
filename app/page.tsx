@@ -108,32 +108,108 @@ const Page = () => {
         </p>
       </div>
 
-      <div className='my-10'>
-        <h2 className='text-xl mb-3 font-bold font-[var(--font-archivo-black)]'>
-          Socials
-        </h2>
-        <div className='flex '>
-          <a 
-            href="https://www.linkedin.com/in/chetan-bhosale-092868231/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className='w-12 mr-2 cursor-pointer h-12 bg-primary/10 text-primary border border-primary/20 rounded-md hover:bg-primary/20 transition-colors flex items-center justify-center'
-          >
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-            </svg>
-          </a>
-          
-          <a 
-            href="https://github.com/ChetanBhosale" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className='w-12 cursor-pointer h-12 bg-primary/10 text-primary border border-primary/20 rounded-md hover:bg-primary/20 transition-colors flex items-center justify-center'
-          >
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-            </svg>
-          </a>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-8 my-10'>
+        {/* Socials Section */}
+        <div>
+          <h2 className='text-xl mb-4 font-bold font-[var(--font-archivo-black)]'>
+            Socials
+          </h2>
+          <div className='flex gap-3'>
+            <a 
+              href="https://www.linkedin.com/in/chetan-bhosale-092868231/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className='group w-12 h-12 bg-primary/10 text-primary border border-primary/20 rounded-lg hover:bg-primary hover:text-primary-foreground transition-all duration-200 flex items-center justify-center hover:scale-105 hover:shadow-md'
+              aria-label="LinkedIn Profile"
+            >
+              <svg className="w-5 h-5 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+            </a>
+            
+            <a 
+              href="https://github.com/ChetanBhosale" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className='group w-12 h-12 bg-primary/10 text-primary border border-primary/20 rounded-lg hover:bg-primary hover:text-primary-foreground transition-all duration-200 flex items-center justify-center hover:scale-105 hover:shadow-md'
+              aria-label="GitHub Profile"
+            >
+              <svg className="w-5 h-5 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+            </a>
+
+            {/* <a 
+              href="https://twitter.com/ChetanBhosale_" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className='group w-12 h-12 bg-primary/10 text-primary border border-primary/20 rounded-lg hover:bg-primary hover:text-primary-foreground transition-all duration-200 flex items-center justify-center hover:scale-105 hover:shadow-md'
+              aria-label="Twitter Profile"
+            >
+              <svg className="w-5 h-5 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a> */}
+          </div>
+          <div className='mt-3 text-sm text-muted-foreground font-[var(--font-montserrat)]'>
+            Connect with me on social platforms
+          </div>
+        </div>
+
+        {/* Contacts Section */}
+        <div>
+          <h2 className='text-xl mb-4 font-bold font-[var(--font-archivo-black)]'>
+            Contacts
+          </h2>
+          <div className='space-y-3'>
+            <div className='flex items-center gap-3 group'>
+              <div className='w-10 h-10 bg-primary/10 text-primary border border-primary/20 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors'>
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+              </div>
+              <div className='flex-1'>
+                <p className='text-sm text-muted-foreground font-[var(--font-montserrat)]'>Email</p>
+                <a 
+                  href="mailto:chetanbhosale810@gmail.com" 
+                  className='text-foreground hover:text-primary transition-colors font-medium font-[var(--font-montserrat)]'
+                >
+                  chetanbhosale810@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div className='flex items-center gap-3 group'>
+              <div className='w-10 h-10 bg-primary/10 text-primary border border-primary/20 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors'>
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                </svg>
+              </div>
+              <div className='flex-1'>
+                <p className='text-sm text-muted-foreground font-[var(--font-montserrat)]'>Phone</p>
+                <a 
+                  href="tel:+918857811443" 
+                  className='text-foreground hover:text-primary transition-colors font-medium font-[var(--font-montserrat)]'
+                >
+                  +91 8857811443
+                </a>
+              </div>
+            </div>
+
+            <div className='flex items-center gap-3 group'>
+              <div className='w-10 h-10 bg-primary/10 text-primary border border-primary/20 rounded-lg flex items-center justify-center group-hover:bg-primary/20 transition-colors'>
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
+              </div>
+              <div className='flex-1'>
+                <p className='text-sm text-muted-foreground font-[var(--font-montserrat)]'>Location</p>
+                <p className='text-foreground font-medium font-[var(--font-montserrat)]'>
+                  Pune, India
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -164,10 +240,11 @@ const Page = () => {
 
             <ul className='text-foreground space-y-3 text-sm font-[var(--font-montserrat)] leading-relaxed'>
               <li>Scaled a food ordering platform serving 10K+ daily users with 99.9% uptime using Node.js, React, MongoDB, Redis, Docker, and AWS</li>
-              <li>Redesigned the SuperSalesMindAI frontend with Next.js and TailwindCSS, improving user engagement by 40% and reducing load time by 60%</li>
-              <li>Built a cloud-native AI backend processing 1M+ website embeddings using LLMs and vector search</li>
-              <li>Automated scraping pipelines on Cloudflare serverless, reducing processing time from hours to minutes</li>
-              <li>Developed a GenAI website builder with Claude SDK, ChromaDB, and Redis queues, enabling 100+ websites per month</li>
+              <li>Developed from the ground up the SuperSalesMindAI frontend with Next.js and TailwindCSS, integrating multiple backend APIs and constructing interactive dashboards utilizing Redux, Axios, and SWR for efficient, real-time data management.</li>
+              <li>Built a backend AI platform leveraging Claude/OpenAI models and ChromaDB for advanced website data processing, embedding, and vector search.</li>
+              <li>Created prompt-based website builder (OOW AI) powered by Claude SDK, integrating semantic search and scalable edge deployment, with streamlined CI/CD processes via GitHub Actions and Docker.</li>
+              <li>Oversaw dev–manager collaboration on the Tvito project, shaping backend architecture, implementing modular SSR apps leveraging Next.js and Redis, and incorporating effective bot detection logic to maintain data integrity</li>
+              <li>Introduced scalable scraping and embedding pipelines to get latest data from the web.</li>
             </ul>
           </div>
 
