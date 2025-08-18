@@ -266,7 +266,7 @@ const Page = () => {
 
             <ul className='text-foreground space-y-3 text-sm font-[var(--font-montserrat)] leading-relaxed'>
               <li>Improved backend performance by 80% through Redis caching and query optimization</li>
-              <li>Built 15+ REST APIs for CRM operations, handling 50K+ daily requests</li>
+              <li>Built REST APIs for CRM operations, handling 50K+ daily requests</li>
               <li>Developed a custom student IDE with real-time code editing, debugging, and peer review features</li>
               <li>Integrated RTK Query to reduce API calls by 70% and improve data fetching speed</li>
             </ul>
