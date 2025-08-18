@@ -2,60 +2,60 @@
 import React from 'react'
 
 const Page = () => {
-  const projects = [
-    {
-      title: "DoviaAI",
-      description:
-        "Dovia AI is a no-code/low-code platform that lets you build apps and UI components instantly using prompts. Simply describe what you want, and the AI generates functional apps and components in real time.",
-      image: "/image/dovia.png",
-      isImageAvailable: true,
-      link: "https://dovia-delta.vercel.app/",
-      github: "https://github.com/ChetanBhosale/dovia",
-      tech_stack: [
-        "Next.js",
-        "TailwindCSS",
-        "Shadcn UI",
-        "React",
-        "Redis",
-        "AI/LLMs",
-        "Inngest Server",
-        "Docker",
-        "E2B Sandbox",
-        "Postgres"
-      ],
-    },
-    {
-      title: "TrafficMine",
-      description:
-        "TrafficMine helps you analyze and optimize website performance by tracking user behavior, traffic flow, and error patterns. It provides actionable insights to debug issues faster and improve overall user experience.",
-      image: "",
-      isImageAvailable: false,
-      link: "",
-      workDone: "90%",
-      github: "https://github.com/ChetanBhosale/traffic-mine",
-      tech_stack: ["Next.js", "TailwindCSS", "Shadcn UI", "Node.js", "Postgres"],
-    },
-    {
-      title: "GenChat",
-      description:
-        "GenChat allows you to create custom AI-powered chatbots for your website in just a few minutes. These bots engage visitors, explain your products or services, and keep you informed about new leads and interactions.",
-      image: "",
-      isImageAvailable: false,
-      link: "",
-      workDone: "90%",
-      github: "https://github.com/ChetanBhosale/GenChat",
-      tech_stack: [
-        "TurboRepo",
-        "Next.js",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Node.js",
-        "Postgres",
-        "Redis",
-        "WebSockets"
-      ],
-    },
-  ];
+  // const projects = [
+  //   {
+  //     title: "DoviaAI",
+  //     description:
+  //       "Dovia AI is a no-code/low-code platform that lets you build apps and UI components instantly using prompts. Simply describe what you want, and the AI generates functional apps and components in real time.",
+  //     image: "/image/dovia.png",
+  //     isImageAvailable: true,
+  //     link: "https://dovia-delta.vercel.app/",
+  //     github: "https://github.com/ChetanBhosale/dovia",
+  //     tech_stack: [
+  //       "Next.js",
+  //       "TailwindCSS",
+  //       "Shadcn UI",
+  //       "React",
+  //       "Redis",
+  //       "AI/LLMs",
+  //       "Inngest Server",
+  //       "Docker",
+  //       "E2B Sandbox",
+  //       "Postgres"
+  //     ],
+  //   },
+  //   {
+  //     title: "TrafficMine",
+  //     description:
+  //       "TrafficMine helps you analyze and optimize website performance by tracking user behavior, traffic flow, and error patterns. It provides actionable insights to debug issues faster and improve overall user experience.",
+  //     image: "",
+  //     isImageAvailable: false,
+  //     link: "",
+  //     workDone: "90%",
+  //     github: "https://github.com/ChetanBhosale/traffic-mine",
+  //     tech_stack: ["Next.js", "TailwindCSS", "Shadcn UI", "Node.js", "Postgres"],
+  //   },
+  //   {
+  //     title: "GenChat",
+  //     description:
+  //       "GenChat allows you to create custom AI-powered chatbots for your website in just a few minutes. These bots engage visitors, explain your products or services, and keep you informed about new leads and interactions.",
+  //     image: "",
+  //     isImageAvailable: false,
+  //     link: "",
+  //     workDone: "90%",
+  //     github: "https://github.com/ChetanBhosale/GenChat",
+  //     tech_stack: [
+  //       "TurboRepo",
+  //       "Next.js",
+  //       "TailwindCSS",
+  //       "Shadcn UI",
+  //       "Node.js",
+  //       "Postgres",
+  //       "Redis",
+  //       "WebSockets"
+  //     ],
+  //   },
+  // ];
   
   return (
     <div className='max-w-4xl mx-auto min-h-screen px-10 py-20'>
