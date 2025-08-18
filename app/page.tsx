@@ -64,7 +64,7 @@ const Page = () => {
         <div className='flex-1 space-y-6'>
           <div className='space-y-4'>
             <h1 className='text-5xl font-bold font-[var(--font-archivo-black)]'>
-              Hi, I'm Chetan Bhosale ✌️
+              Hi, I&apos;m Chetan Bhosale ✌️
             </h1>
             <p className='text-lg text-muted-foreground font-[var(--font-montserrat)] leading-relaxed max-w-2xl'>
               I am a Full Stack Software Developer, interested in building solutions that help people.
@@ -485,7 +485,7 @@ const Page = () => {
             <h3 className='text-lg font-semibold font-[var(--font-montserrat)]'>Bachelor of Computer Applications (BCA)</h3>
             <span className='text-sm text-muted-foreground font-[var(--font-montserrat)]'>2021 – 2024</span>
           </div>
-          <p className='text-foreground font-medium mb-2 font-[var(--font-montserrat)]'>St. Xavier's College, Ahmedabad</p>
+          <p className='text-foreground font-medium mb-2 font-[var(--font-montserrat)]'>St. Xavier&apos;s College, Ahmedabad</p>
           <p className='text-muted-foreground mb-4 font-[var(--font-montserrat)]'>Ahmedabad, India</p>
           
           <div className='flex items-center gap-3 mb-4'>
