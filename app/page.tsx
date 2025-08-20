@@ -398,7 +398,7 @@ const Page = () => {
 
                 <div className='flex gap-3'>
                   <a 
-                    href="https://github.com/ChetanBhosale/traffic-mine" 
+                    href="https://github.com/ChetanBhosale/TrafficMine" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className='px-4 py-2 bg-primary/10 text-primary border border-primary/20 rounded-md hover:bg-primary/20 hover:border-primary/30 transition-all duration-200 text-sm font-medium flex items-center gap-2 group/btn'
