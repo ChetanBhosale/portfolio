@@ -226,7 +226,7 @@ const Page = () => {
               <h3 className='text-lg font-semibold font-[var(--font-montserrat)]'>Software Engineer</h3>
               <span className='text-sm text-muted-foreground font-[var(--font-montserrat)]'>Jun 2024 – Sep 2025</span>
             </div>
-            <p className='text-foreground font-medium mb-2 font-[var(--font-montserrat)]'>TransErg LLP ,@petpooja </p>
+            <p className='text-foreground font-medium mb-2 font-[var(--font-montserrat)]'>TransErg LLP @Petpooja </p>
             <p className='text-muted-foreground mb-4 font-[var(--font-montserrat)]'>Remote, India</p>
             
 
