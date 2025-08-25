@@ -248,7 +248,7 @@ const Page = () => {
             </ul>
           </div>
 
-          <div className='border-l-4 border-border pl-6'>
+          {/* <div className='border-l-4 border-border pl-6'>
             <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between mb-3'>
               <h3 className='text-lg font-semibold font-[var(--font-montserrat)]'>Full Stack Developer ( Internship )</h3>
               <span className='text-sm text-muted-foreground font-[var(--font-montserrat)]'>Jul 2023 – Apr 2024</span>
@@ -270,7 +270,7 @@ const Page = () => {
               <li>Developed a custom student IDE with real-time code editing, debugging, and peer review features</li>
               <li>Integrated RTK Query to reduce API calls by 70% and improve data fetching speed</li>
             </ul>
-          </div>
+          </div> */}
 
 
           <div className='border-l-4 border-border pl-6'>
