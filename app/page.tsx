@@ -104,7 +104,7 @@ const Page = () => {
           About
         </h2>
         <p className='text-primary/70'>
-          I’m Chetan Bhosale, a Full Stack Engineer with 1+ year full-time and 2 years internship experience, team leadership skills, 10+ freelance projects, and a passion for building scalable, AI-powered, and cloud-native solutions.
+          I’m Chetan Bhosale, a Full Stack Engineer with 2+ years full-time and 2 years internship experience, team leadership skills, 10+ freelance projects, and a passion for building scalable, AI-powered, and cloud-native solutions.
         </p>
       </div>
 
@@ -220,13 +220,64 @@ const Page = () => {
         </h2>
         <div className='space-y-8'>
 
+          <div className='border-l-4 border-border pl-6'>
+            <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between mb-1'>
+              <h3 className='text-lg font-semibold font-[var(--font-montserrat)]'>Founding Engineer</h3>
+              <span className='text-sm text-muted-foreground font-[var(--font-montserrat)]'>October 2025 – Present</span>
+            </div>
+            <a 
+              href="https://linkrunner.io" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className='flex items-center gap-3 mb-2 group hover:opacity-80 transition-opacity'
+            >
+              <Image 
+                src="/company_logos/linkrunner.svg" 
+                alt="Linkrunner Logo" 
+                width={32} 
+                height={32} 
+                className='rounded-lg group-hover:scale-105 transition-transform'
+              />
+              <p className='text-foreground font-medium font-[var(--font-montserrat)] group-hover:text-primary transition-colors underline-offset-4 group-hover:underline'>Linkrunner</p>
+            </a>
+            <p className='text-muted-foreground mb-4 font-[var(--font-montserrat)]'>Bengaluru, India</p>
+            
+
+            <div className='flex flex-wrap gap-3 mb-4'>
+              {['NextJs', 'NodeJs', "Postgres", "Redis", "Docker", "AI/LLMs", 'React Native', 'Flutter', 'Swift', 'Android', 'Data Pipelines'].map((skill, idx) => (
+                <span key={idx} className='px-3 py-1 bg-primary/10 text-primary border border-primary/20 rounded-full text-sm font-medium'>
+                  {skill}
+                </span>
+              ))}
+            </div>
+
+            <ul className='text-foreground space-y-3 text-sm font-[var(--font-montserrat)] leading-relaxed'>
+              <li>Designed and implemented the complete flow for tracking client usage and generating accurate billing.</li>
+              <li>Resolved major event-deduplication issues across React Native, Android, Flutter, and Swift SDKs, including fixes in the underlying data pipelines.</li>
+              <li>Led the full dashboard revamp using Figma MCP and shadcn MCP, and built an automated design-to-code pipeline using Cursor, Figma, and internal tools.</li>
+            </ul>
+          </div>
 
           <div className='border-l-4 border-border pl-6'>
             <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between mb-1'>
               <h3 className='text-lg font-semibold font-[var(--font-montserrat)]'>Software Engineer</h3>
               <span className='text-sm text-muted-foreground font-[var(--font-montserrat)]'>Jun 2024 – Sep 2025</span>
             </div>
-            <p className='text-foreground font-medium mb-2 font-[var(--font-montserrat)]'>TransErg LLP @Petpooja </p>
+            <a 
+              href="https://www.petpooja.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className='flex items-center gap-3 mb-2 group hover:opacity-80 transition-opacity'
+            >
+              <Image 
+                src="/company_logos/petpooja.svg" 
+                alt="Petpooja Logo" 
+                width={100} 
+                height={32} 
+                className='rounded-lg group-hover:scale-105 transition-transform'
+              />
+              <p className='text-foreground font-medium font-[var(--font-montserrat)] group-hover:text-primary transition-colors underline-offset-4 group-hover:underline'>TransErg LLP @Petpooja</p>
+            </a>
             <p className='text-muted-foreground mb-4 font-[var(--font-montserrat)]'>Remote, India</p>
             
 
@@ -278,7 +329,16 @@ const Page = () => {
               <h3 className='text-lg font-semibold font-[var(--font-montserrat)]'>Full Stack Developer ( Internship )</h3>
               <span className='text-sm text-muted-foreground font-[var(--font-montserrat)]'>Dec 2022 – Jun 2023</span>
             </div>
-            <p className='text-foreground font-medium mb-2 font-[var(--font-montserrat)]'>Your Assistant LLP</p>
+            <div className='flex items-center gap-3 mb-2'>
+              <Image 
+                src="/company_logos/yourassistant.svg" 
+                alt="Your Assistant Logo" 
+                width={32} 
+                height={32} 
+                className='rounded-lg'
+              />
+              <p className='text-foreground font-medium font-[var(--font-montserrat)]'>Your Assistant LLP</p>
+            </div>
             <p className='text-muted-foreground mb-4 font-[var(--font-montserrat)]'>Ahmedabad, India</p>
             
             <div className='flex flex-wrap gap-3 mb-4'>
