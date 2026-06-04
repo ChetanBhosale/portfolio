@@ -1,0 +1,8 @@
+# Chetan Bhosale
+
+> Full-Stack Software Developer & DevOps Enthusiast from Pune, India, passionate about building scalable web applications, AI-powered platforms, and efficient cloud-native solutions.
+
+## Main Pages
+
+- [Portfolio Home](https://chetan-bhosale.vercel.app/) - Personal portfolio website showcasing projects (DoviaAI, TrafficMine, GenChat), professional experience, education, and contact details.
+- [Markdown Version](https://chetan-bhosale.vercel.app/index.md) - Raw Markdown representation designed for AI engines and crawlers.
