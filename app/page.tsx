@@ -58,7 +58,7 @@ const Page = () => {
   // ];
   
   return (
-    <div className='max-w-4xl mx-auto min-h-screen px-10 py-20'>
+    <main className='max-w-4xl mx-auto min-h-screen px-10 py-20'>
       <div className='flex items-start justify-between gap-12'>
 
         <div className='flex-1 space-y-6'>
@@ -563,7 +563,7 @@ const Page = () => {
           </p>
         </div>
       </div>
-    </div>
+    </main>
   )
 }
 
