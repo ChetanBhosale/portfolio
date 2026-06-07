@@ -1,0 +1,6 @@
+# Chetan Bhosale
+
+> Full Stack Software Engineer & DevOps Enthusiast building scalable web applications, AI-powered platforms, and efficient cloud-native solutions.
+
+## Portfolio
+- [Portfolio Home](https://chetan-bhosale.vercel.app/): Main portfolio detailing experience at Linkrunner and Petpooja, personal projects (DoviaAI, TrafficMine, GenChat), education, and contact details. Read [Markdown Twin](https://chetan-bhosale.vercel.app/index.md) for direct semantic representation.
