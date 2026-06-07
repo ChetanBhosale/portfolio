@@ -108,6 +108,46 @@ export default function RootLayout({
             "addressCountry": "India"
           }
         }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://chetan-bhosale.vercel.app/#faq",
+        "name": "Frequently Asked Questions",
+        "description": "Frequently Asked Questions about Chetan Bhosale's professional experience, background, and projects.",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Who is Chetan Bhosale and what is his professional background?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Chetan Bhosale is a Full Stack Software Engineer and DevOps Enthusiast based in Pune, India. He has over 2 years of full-time experience alongside 2 years of internship experience, specializing in building high-performance, AI-powered, and cloud-native web applications."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What technical skills and core technologies does Chetan specialize in?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "He works across the entire product lifecycle with core competence in Next.js, React, Node.js, and Databases (PostgreSQL, MongoDB, Redis). On the DevOps side, he possesses key experience with Docker, AWS, and modern data pipelines."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are some notable projects built by Chetan Bhosale?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Key featured projects include: DoviaAI, a prompt-based low-code/no-code app building and UI generation platform built on E2B Sandboxes, Inngest Server, Redis, Next.js, and Postgres; TrafficMine, a web analytics and performance tracker; and GenChat, an automated AI-powered chatbot builder."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is his experience in developing AI/LLM-integrated applications?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In his roles at Linkrunner and TransErg LLP (Petpooja), he architected prompt-based website builders powered by Claude SDKs, constructed semantic search & vector databases with ChromaDB, integrated OpenAI/Claude models, and built custom code-generation tooling."
+            }
+          }
+        ]
       }
     ]
   };

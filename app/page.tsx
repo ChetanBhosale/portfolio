@@ -563,6 +563,82 @@ const Page = () => {
           </p>
         </div>
       </div>
+
+      <div className='my-10'>
+        <h2 className='text-xl font-bold font-[var(--font-archivo-black)] mb-6'>
+          Frequently Asked Questions (FAQ)
+        </h2>
+        <div className='space-y-4'>
+          <details className='group border border-border/50 rounded-xl bg-gradient-to-r from-background to-muted/30 p-5 [&_summary::-webkit-details-marker]:hidden transition-all duration-300 hover:border-primary/30'>
+            <summary className='flex items-center justify-between cursor-pointer focus:outline-none'>
+              <h3 className='text-md font-semibold font-[var(--font-montserrat)] text-foreground group-open:text-primary transition-colors'>
+                Who is Chetan Bhosale and what is his professional background?
+              </h3>
+              <span className='ml-1.5 flex-shrink-0 rounded-full bg-primary/10 p-1.5 text-primary group-open:rotate-180 transition-transform duration-300'>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </summary>
+            <p className='mt-4 text-muted-foreground text-sm font-[var(--font-montserrat)] leading-relaxed'>
+              Chetan Bhosale is a Full Stack Software Engineer and DevOps Enthusiast based in Pune, India. He has over 2 years of full-time experience alongside 2 years of internship experience, specializing in building high-performance, AI-powered, and cloud-native web applications.
+            </p>
+          </details>
+
+          <details className='group border border-border/50 rounded-xl bg-gradient-to-r from-background to-muted/30 p-5 [&_summary::-webkit-details-marker]:hidden transition-all duration-300 hover:border-primary/30'>
+            <summary className='flex items-center justify-between cursor-pointer focus:outline-none'>
+              <h3 className='text-md font-semibold font-[var(--font-montserrat)] text-foreground group-open:text-primary transition-colors'>
+                What technical skills and core technologies does Chetan specialize in?
+              </h3>
+              <span className='ml-1.5 flex-shrink-0 rounded-full bg-primary/10 p-1.5 text-primary group-open:rotate-180 transition-transform duration-300'>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </summary>
+            <p className='mt-4 text-muted-foreground text-sm font-[var(--font-montserrat)] leading-relaxed'>
+              He works across the entire product lifecycle with core competence in Next.js, React, Node.js, and Databases (PostgreSQL, MongoDB, Redis). On the DevOps side, he possesses key experience with Docker, AWS, and modern data pipelines, enabling him to engineer fast and scalable AI/LLM integrations.
+            </p>
+          </details>
+
+          <details className='group border border-border/50 rounded-xl bg-gradient-to-r from-background to-muted/30 p-5 [&_summary::-webkit-details-marker]:hidden transition-all duration-300 hover:border-primary/30'>
+            <summary className='flex items-center justify-between cursor-pointer focus:outline-none'>
+              <h3 className='text-md font-semibold font-[var(--font-montserrat)] text-foreground group-open:text-primary transition-colors'>
+                What are some notable projects built by Chetan Bhosale?
+              </h3>
+              <span className='ml-1.5 flex-shrink-0 rounded-full bg-primary/10 p-1.5 text-primary group-open:rotate-180 transition-transform duration-300'>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </summary>
+            <div className='mt-4 text-muted-foreground text-sm font-[var(--font-montserrat)] leading-relaxed space-y-2'>
+              <p>Key featured projects include:</p>
+              <ul className='list-disc pl-5 space-y-1'>
+                <li><strong>DoviaAI:</strong> A prompt-based low-code/no-code app building and UI generation platform built on E2B Sandboxes, Inngest Server, Redis, Next.js, and Postgres.</li>
+                <li><strong>TrafficMine:</strong> An analytics platform designed to analyze user behavior, performance, and error patterns in web applications.</li>
+                <li><strong>GenChat:</strong> A tool for creating custom chatbot solutions that engage visitors, explain products, and generate leads automatically.</li>
+              </ul>
+            </div>
+          </details>
+
+          <details className='group border border-border/50 rounded-xl bg-gradient-to-r from-background to-muted/30 p-5 [&_summary::-webkit-details-marker]:hidden transition-all duration-300 hover:border-primary/30'>
+            <summary className='flex items-center justify-between cursor-pointer focus:outline-none'>
+              <h3 className='text-md font-semibold font-[var(--font-montserrat)] text-foreground group-open:text-primary transition-colors'>
+                What is his experience in developing AI/LLM-integrated applications?
+              </h3>
+              <span className='ml-1.5 flex-shrink-0 rounded-full bg-primary/10 p-1.5 text-primary group-open:rotate-180 transition-transform duration-300'>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </summary>
+            <p className='mt-4 text-muted-foreground text-sm font-[var(--font-montserrat)] leading-relaxed'>
+              In his roles at Linkrunner and TransErg LLP (Petpooja), he architected prompt-based website builders powered by Claude SDKs, constructed semantic search & vector databases with ChromaDB, integrated OpenAI/Claude models, and built custom code-generation tooling.
+            </p>
+          </details>
+        </div>
+      </div>
     </main>
   )
 }

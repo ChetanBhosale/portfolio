@@ -92,3 +92,22 @@ GenChat allows you to create custom AI-powered chatbots for your website in just
 - **Major**: Computer Applications
 
 Completed Bachelor of Computer Applications with a strong foundation in programming, software development, and computer science fundamentals. The program covered essential topics including web development, database management, programming languages, and software engineering principles.
+
+---
+
+## Frequently Asked Questions (FAQ)
+
+### Who is Chetan Bhosale and what is his professional background?
+Chetan Bhosale is a Full Stack Software Engineer and DevOps Enthusiast based in Pune, India. He has over 2 years of full-time experience alongside 2 years of internship experience, specializing in building high-performance, AI-powered, and cloud-native web applications.
+
+### What technical skills and core technologies does Chetan specialize in?
+He works across the entire product lifecycle with core competence in Next.js, React, Node.js, and Databases (PostgreSQL, MongoDB, Redis). On the DevOps side, he possesses key experience with Docker, AWS, and modern data pipelines, enabling him to engineer fast and scalable AI/LLM integrations.
+
+### What are some notable projects built by Chetan Bhosale?
+Key featured projects include:
+- **DoviaAI**: A prompt-based low-code/no-code app building and UI generation platform built on E2B Sandboxes, Inngest Server, Redis, Next.js, and Postgres.
+- **TrafficMine**: An analytics platform designed to analyze user behavior, performance, and error patterns in web applications.
+- **GenChat**: A tool for creating custom chatbot solutions that engage visitors, explain products, and generate leads automatically.
+
+### What is his experience in developing AI/LLM-integrated applications?
+In his roles at Linkrunner and TransErg LLP (Petpooja), he architected prompt-based website builders powered by Claude SDKs, constructed semantic search & vector databases with ChromaDB, integrated OpenAI/Claude models, and built custom code-generation tooling.
