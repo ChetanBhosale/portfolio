@@ -18,6 +18,10 @@ const archivoBlack = Archivo_Black({
   title: "Chetan Bhosale - Full Stack Software Engineer",
   description: "Full Stack Software Engineer & DevOps Enthusiast from Pune, India, building scalable web applications, AI platforms, and cloud-native solutions.",
   metadataBase: new URL("https://chetan-bhosale.vercel.app"),
+  authors: [{ name: "Chetan Bhosale", url: "https://chetan-bhosale.vercel.app" }],
+  other: {
+    "dateModified": "2025-02-15",
+  },
   alternates: {
     canonical: "https://chetan-bhosale.vercel.app",
     types: {
@@ -42,10 +46,10 @@ const archivoBlack = Archivo_Black({
     siteName: "Chetan Bhosale Portfolio",
     images: [
       {
-        url: "/image/gibli.png",
-        width: 1024,
-        height: 1536,
-        alt: "Chetan Bhosale Profile picture",
+        url: "/image/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Chetan Bhosale - Full Stack Software Engineer",
         type: "image/png",
       }
     ],
@@ -56,7 +60,7 @@ const archivoBlack = Archivo_Black({
     card: "summary_large_image",
     title: "Chetan Bhosale - Full Stack Software Engineer",
     description: "Full Stack Software Engineer & DevOps Enthusiast from Pune, India, building scalable web applications, AI platforms, and cloud-native solutions.",
-    images: ["/image/gibli.png"],
+    images: ["/image/og.png"],
   },
 };
 
@@ -73,7 +77,12 @@ export default function RootLayout({
         "@id": "https://chetan-bhosale.vercel.app/#website",
         "url": "https://chetan-bhosale.vercel.app/",
         "name": "Chetan Bhosale Portfolio",
-        "description": "Full Stack Software Engineer & DevOps Enthusiast building scalable web applications, AI-powered platforms, and efficient cloud-native solutions."
+        "description": "Full Stack Software Engineer & DevOps Enthusiast building scalable web applications, AI-powered platforms, and efficient cloud-native solutions.",
+        "dateModified": "2025-02-15T00:00:00+00:00",
+        "about": [
+          { "@id": "https://chetan-bhosale.vercel.app/#person" },
+          { "@id": "https://chetan-bhosale.vercel.app/#definedtermset" }
+        ]
       },
       {
         "@type": "Organization",
@@ -92,6 +101,7 @@ export default function RootLayout({
         "@id": "https://chetan-bhosale.vercel.app/#profilepage",
         "url": "https://chetan-bhosale.vercel.app/",
         "name": "Chetan Bhosale Portfolio",
+        "dateModified": "2025-02-15T00:00:00+00:00",
         "mainEntity": {
           "@type": "Person",
           "@id": "https://chetan-bhosale.vercel.app/#person",
@@ -108,7 +118,14 @@ export default function RootLayout({
             "addressLocality": "Pune",
             "addressRegion": "Maharashtra",
             "addressCountry": "India"
-          }
+          },
+          "knowsAbout": [
+            { "@id": "https://chetan-bhosale.vercel.app/#term-full-stack-engineer" },
+            { "@id": "https://chetan-bhosale.vercel.app/#term-devops-enthusiast" },
+            { "@id": "https://chetan-bhosale.vercel.app/#term-doviaai" },
+            { "@id": "https://chetan-bhosale.vercel.app/#term-trafficmine" },
+            { "@id": "https://chetan-bhosale.vercel.app/#term-genchat" }
+          ]
         }
       },
       {
@@ -152,6 +169,72 @@ export default function RootLayout({
           "price": "0",
           "priceCurrency": "USD"
         }
+      },
+      {
+        "@type": "DefinedTermSet",
+        "@id": "https://chetan-bhosale.vercel.app/#definedtermset",
+        "name": "Chetan Bhosale Portfolio Glossary",
+        "url": "https://chetan-bhosale.vercel.app/",
+        "hasDefinedTerm": [
+          { "@id": "https://chetan-bhosale.vercel.app/#term-chetan-bhosale" },
+          { "@id": "https://chetan-bhosale.vercel.app/#term-full-stack-engineer" },
+          { "@id": "https://chetan-bhosale.vercel.app/#term-devops-enthusiast" },
+          { "@id": "https://chetan-bhosale.vercel.app/#term-doviaai" },
+          { "@id": "https://chetan-bhosale.vercel.app/#term-trafficmine" },
+          { "@id": "https://chetan-bhosale.vercel.app/#term-genchat" }
+        ]
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://chetan-bhosale.vercel.app/#term-chetan-bhosale",
+        "name": "Chetan Bhosale",
+        "description": "Full Stack Software Engineer & DevOps Enthusiast from Pune, India, building scalable web applications, AI platforms, and cloud-native solutions.",
+        "url": "https://chetan-bhosale.vercel.app/",
+        "inDefinedTermSet": "https://chetan-bhosale.vercel.app/#definedtermset",
+        "sameAs": "https://chetan-bhosale.vercel.app/#person"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://chetan-bhosale.vercel.app/#term-full-stack-engineer",
+        "name": "Full Stack Software Engineer",
+        "description": "A professional who designs, builds, and maintains both the front-end (user interface) and back-end (server, database, and APIs) of web applications.",
+        "url": "https://chetan-bhosale.vercel.app/",
+        "inDefinedTermSet": "https://chetan-bhosale.vercel.app/#definedtermset"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://chetan-bhosale.vercel.app/#term-devops-enthusiast",
+        "name": "DevOps Enthusiast",
+        "description": "A professional passionate about automating software delivery, continuous integration, continuous deployment, and cloud-native infrastructure management.",
+        "url": "https://chetan-bhosale.vercel.app/",
+        "inDefinedTermSet": "https://chetan-bhosale.vercel.app/#definedtermset"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://chetan-bhosale.vercel.app/#term-doviaai",
+        "name": "DoviaAI",
+        "description": "A no-code/low-code platform that lets you build apps and UI components instantly using prompts.",
+        "url": "https://dovia-delta.vercel.app/",
+        "inDefinedTermSet": "https://chetan-bhosale.vercel.app/#definedtermset",
+        "sameAs": "https://chetan-bhosale.vercel.app/#doviaai"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://chetan-bhosale.vercel.app/#term-trafficmine",
+        "name": "TrafficMine",
+        "description": "A website performance analysis and optimization tool that tracks user behavior, traffic flow, and error patterns.",
+        "url": "https://github.com/ChetanBhosale/TrafficMine",
+        "inDefinedTermSet": "https://chetan-bhosale.vercel.app/#definedtermset",
+        "sameAs": "https://chetan-bhosale.vercel.app/#trafficmine"
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://chetan-bhosale.vercel.app/#term-genchat",
+        "name": "GenChat",
+        "description": "A custom AI-powered chatbot creation tool that engages visitors and explains products or services.",
+        "url": "https://github.com/ChetanBhosale/GenChat",
+        "inDefinedTermSet": "https://chetan-bhosale.vercel.app/#definedtermset",
+        "sameAs": "https://chetan-bhosale.vercel.app/#genchat"
       }
     ]
   };
