@@ -76,6 +76,9 @@ const Page = () => {
             <h1 className='text-5xl font-bold font-[var(--font-archivo-black)]'>
               Hi, I&apos;m Chetan Bhosale ✌️
             </h1>
+            <p className='text-sm text-muted-foreground font-[var(--font-montserrat)]'>
+              By Chetan Bhosale • Last updated: February 2025
+            </p>
             <p className='text-lg text-muted-foreground font-[var(--font-montserrat)] leading-relaxed max-w-2xl'>
               I am a Full Stack Software Developer, interested in building solutions that help people.
             </p>
