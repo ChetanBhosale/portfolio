@@ -2,5 +2,13 @@
 
 > Full Stack Software Engineer & DevOps Enthusiast building scalable web applications, AI-powered platforms, and efficient cloud-native solutions.
 
-## Portfolio
-- [Portfolio Home](https://chetan-bhosale.vercel.app/): Main portfolio detailing experience at Linkrunner and Petpooja, personal projects (DoviaAI, TrafficMine, GenChat), education, and contact details. Read [Markdown Twin](https://chetan-bhosale.vercel.app/index.md) for direct semantic representation.
+## Key Resources
+
+- [Portfolio Home](https://chetan-bhosale.vercel.app/): Main portfolio detailing experience at Linkrunner and Petpooja, personal projects (DoviaAI, TrafficMine, GenChat), education, and contact details.
+- [Markdown Twin](https://chetan-bhosale.vercel.app/index.md): Direct semantic representation of the portfolio in Markdown format, optimized for LLM consumption.
+
+## Projects
+
+- [DoviaAI](https://dovia-delta.vercel.app/): A no-code/low-code platform that lets you build apps and UI components instantly using prompts.
+- [TrafficMine](https://github.com/ChetanBhosale/TrafficMine): Website performance and user behavior tracking tool.
+- [GenChat](https://github.com/ChetanBhosale/GenChat): Custom AI-powered chatbots builder for websites.

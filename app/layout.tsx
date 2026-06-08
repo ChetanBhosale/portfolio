@@ -15,11 +15,11 @@ const archivoBlack = Archivo_Black({
 });
 
   export const metadata: Metadata = {
-  title: "Chetan Bhosale - Full Stack Software Engineer & DevOps Enthusiast",
-  description: "Full Stack Software Engineer & DevOps Enthusiast from Pune, India, passionate about building scalable web applications, AI-powered platforms, and efficient cloud-native solutions.",
+  title: "Chetan Bhosale - Full Stack Software Engineer",
+  description: "Full Stack Software Engineer & DevOps Enthusiast from Pune, India, building scalable web applications, AI platforms, and cloud-native solutions.",
   metadataBase: new URL("https://chetan-bhosale.vercel.app"),
   alternates: {
-    canonical: "/",
+    canonical: "https://chetan-bhosale.vercel.app",
     types: {
       "text/markdown": [
         {
@@ -31,11 +31,13 @@ const archivoBlack = Archivo_Black({
   },
   icons: {
     icon: "/favicon.ico",
-    apple: "/image/gibli.png",
+    apple: [
+      { url: "/image/gibli.png", sizes: "180x180", type: "image/png" },
+    ],
   },
   openGraph: {
-    title: "Chetan Bhosale - Full Stack Software Engineer & DevOps Enthusiast",
-    description: "Full Stack Software Engineer & DevOps Enthusiast from Pune, India, passionate about building scalable web applications, AI-powered platforms, and efficient cloud-native solutions.",
+    title: "Chetan Bhosale - Full Stack Software Engineer",
+    description: "Full Stack Software Engineer & DevOps Enthusiast from Pune, India, building scalable web applications, AI platforms, and cloud-native solutions.",
     url: "https://chetan-bhosale.vercel.app",
     siteName: "Chetan Bhosale Portfolio",
     images: [
@@ -52,8 +54,8 @@ const archivoBlack = Archivo_Black({
   },
   twitter: {
     card: "summary_large_image",
-    title: "Chetan Bhosale - Full Stack Software Engineer & DevOps Enthusiast",
-    description: "Full Stack Software Engineer & DevOps Enthusiast from Pune, India, passionate about building scalable web applications, AI-powered platforms, and efficient cloud-native solutions.",
+    title: "Chetan Bhosale - Full Stack Software Engineer",
+    description: "Full Stack Software Engineer & DevOps Enthusiast from Pune, India, building scalable web applications, AI platforms, and cloud-native solutions.",
     images: ["/image/gibli.png"],
   },
 };
@@ -107,6 +109,48 @@ export default function RootLayout({
             "addressRegion": "Maharashtra",
             "addressCountry": "India"
           }
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://chetan-bhosale.vercel.app/#doviaai",
+        "name": "DoviaAI",
+        "operatingSystem": "All",
+        "applicationCategory": "DeveloperApplication",
+        "description": "Dovia AI is a no-code/low-code platform that lets you build apps and UI components instantly using prompts. Simply describe what you want, and the AI generates functional apps and components in real time.",
+        "url": "https://dovia-delta.vercel.app/",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://chetan-bhosale.vercel.app/#trafficmine",
+        "name": "TrafficMine",
+        "operatingSystem": "All",
+        "applicationCategory": "DeveloperApplication",
+        "description": "TrafficMine helps you analyze and optimize website performance by tracking user behavior, traffic flow, and error patterns. It provides actionable insights to debug issues faster and improve overall user experience.",
+        "url": "https://github.com/ChetanBhosale/TrafficMine",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://chetan-bhosale.vercel.app/#genchat",
+        "name": "GenChat",
+        "operatingSystem": "All",
+        "applicationCategory": "DeveloperApplication",
+        "description": "GenChat allows you to create custom AI-powered chatbots for your website in just a few minutes. These bots engage visitors, explain your products or services, and keep you informed about new leads and interactions.",
+        "url": "https://github.com/ChetanBhosale/GenChat",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
         }
       }
     ]
