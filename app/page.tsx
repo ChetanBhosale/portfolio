@@ -59,6 +59,16 @@ const Page = () => {
   
   return (
     <main className='max-w-4xl mx-auto min-h-screen px-10 py-20'>
+      <nav className='sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/40 py-4 mb-10 flex items-center justify-between'>
+        <div className='flex gap-6 font-[var(--font-montserrat)] text-sm font-medium'>
+          <a href='#about' className='text-muted-foreground hover:text-primary transition-colors'>About</a>
+          <a href='#experience' className='text-muted-foreground hover:text-primary transition-colors'>Experience</a>
+          <a href='#projects' className='text-muted-foreground hover:text-primary transition-colors'>Projects</a>
+          <a href='#education' className='text-muted-foreground hover:text-primary transition-colors'>Education</a>
+          <a href='#faq' className='text-muted-foreground hover:text-primary transition-colors'>FAQ</a>
+        </div>
+      </nav>
+
       <div className='flex items-start justify-between gap-12'>
 
         <div className='flex-1 space-y-6'>
@@ -99,12 +109,12 @@ const Page = () => {
       </div>
 
 
-      <div className='my-10'>
+      <div id='about' className='my-10 scroll-mt-20'>
         <h2 className='text-xl font-bold font-[var(--font-archivo-black)]'>
           About
         </h2>
         <p className='text-primary/70'>
-          I’m Chetan Bhosale, a Full Stack Engineer with 2+ years full-time and 2 years internship experience, team leadership skills, 10+ freelance projects, and a passion for building scalable, AI-powered, and cloud-native solutions.
+          Chetan Bhosale is a Full Stack Software Engineer with 2+ years of full-time experience and 2 years of internship experience, specializing in building scalable, AI-powered, and cloud-native solutions.
         </p>
       </div>
 
@@ -214,7 +224,7 @@ const Page = () => {
       </div>
 
 
-      <div className='my-10'>
+      <div id='experience' className='my-10 scroll-mt-20'>
         <h2 className='text-xl font-bold font-[var(--font-archivo-black)] mb-6'>
           Experience
         </h2>
@@ -360,7 +370,7 @@ const Page = () => {
         </div>
       </div>
 
-      <div className='my-10'>
+      <div id='projects' className='my-10 scroll-mt-20'>
         <h2 className='text-xl font-bold font-[var(--font-archivo-black)] mb-6'>
           Projects
         </h2>
@@ -536,7 +546,7 @@ const Page = () => {
         </div>
       </div>
 
-      <div className='my-10'>
+      <div id='education' className='my-10 scroll-mt-20'>
         <h2 className='text-xl font-bold font-[var(--font-archivo-black)] mb-6'>
           Education
         </h2>
@@ -563,6 +573,130 @@ const Page = () => {
           </p>
         </div>
       </div>
+
+      <div id='faq' className='my-10 scroll-mt-20'>
+        <h2 className='text-xl font-bold font-[var(--font-archivo-black)] mb-6'>
+          Frequently Asked Questions
+        </h2>
+        <div className='space-y-6'>
+          <div className='border-l-4 border-border pl-6'>
+            <h3 className='text-lg font-semibold font-[var(--font-montserrat)] mb-2'>
+              What are Chetan Bhosale&apos;s primary areas of expertise?
+            </h3>
+            <p className='text-muted-foreground text-sm font-[var(--font-montserrat)] leading-relaxed'>
+              Chetan Bhosale is a Full Stack Software Developer, DevOps Engineer, and AI Enthusiast. His core technical expertise includes Next.js, Node.js, React, Postgres, Redis, Docker, AWS, and building AI-powered solutions using LLMs.
+            </p>
+          </div>
+
+          <div className='border-l-4 border-border pl-6'>
+            <h3 className='text-lg font-semibold font-[var(--font-montserrat)] mb-2'>
+              What is Chetan Bhosale&apos;s professional experience?
+            </h3>
+            <p className='text-muted-foreground text-sm font-[var(--font-montserrat)] leading-relaxed'>
+              Chetan has over 2 years of full-time experience and 2 years of internship experience. He currently serves as a Founding Engineer at Linkrunner (October 2025 – Present). Previously, he worked as a Software Engineer at TransErg LLP @Petpooja (June 2024 – September 2025) and as a Full Stack Developer Intern at Your Assistant LLP.
+            </p>
+          </div>
+
+          <div className='border-l-4 border-border pl-6'>
+            <h3 className='text-lg font-semibold font-[var(--font-montserrat)] mb-2'>
+              What notable projects has Chetan Bhosale built?
+            </h3>
+            <p className='text-muted-foreground text-sm font-[var(--font-montserrat)] leading-relaxed'>
+              Chetan has built several innovative projects, including:
+            </p>
+            <ul className='list-disc list-inside text-muted-foreground text-sm font-[var(--font-montserrat)] leading-relaxed mt-1 space-y-1'>
+              <li><strong>DoviaAI:</strong> A no-code/low-code platform that generates functional apps and UI components instantly using prompts.</li>
+              <li><strong>TrafficMine:</strong> A website performance tracking and optimization tool that analyzes user behavior and error patterns.</li>
+              <li><strong>GenChat:</strong> A platform to create custom AI-powered chatbots for websites in minutes.</li>
+            </ul>
+          </div>
+
+          <div className='border-l-4 border-border pl-6'>
+            <h3 className='text-lg font-semibold font-[var(--font-montserrat)] mb-2'>
+              What is Chetan Bhosale&apos;s educational background?
+            </h3>
+            <p className='text-muted-foreground text-sm font-[var(--font-montserrat)] leading-relaxed'>
+              Chetan completed his Bachelor of Computer Applications (BCA) from St. Xavier&apos;s College, Ahmedabad, graduating in 2024 with a CGPA of 7.8.
+            </p>
+          </div>
+
+          <div className='border-l-4 border-border pl-6'>
+            <h3 className='text-lg font-semibold font-[var(--font-montserrat)] mb-2'>
+              How can I contact Chetan Bhosale for opportunities or collaboration?
+            </h3>
+            <p className='text-muted-foreground text-sm font-[var(--font-montserrat)] leading-relaxed'>
+              You can reach Chetan via email at <a href="mailto:chetanbhosale810@gmail.com" className="text-primary hover:underline">chetanbhosale810@gmail.com</a>, by phone at <a href="tel:+918857811443" className="text-primary hover:underline">+91 8857811443</a>, or connect with him on <a href="https://www.linkedin.com/in/chetan-bhosale-092868231/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">LinkedIn</a> and <a href="https://github.com/ChetanBhosale" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">GitHub</a>. He is based in Pune, India.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <footer className='mt-20 pt-8 border-t border-border/40 text-center space-y-4'>
+        <div className='flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-muted-foreground font-[var(--font-montserrat)]'>
+          <p>© {new Date().getFullYear()} Chetan Bhosale. All rights reserved.</p>
+          <p className='flex items-center gap-2'>
+            <span className='inline-block w-2 h-2 rounded-full bg-green-500 animate-pulse'></span>
+            Last updated: February 2025
+          </p>
+        </div>
+        <div className='text-xs text-muted-foreground/80 font-[var(--font-montserrat)] max-w-2xl mx-auto leading-relaxed'>
+          <p>
+            Chetan Bhosale is a professional Full Stack Software Engineer based in Pune, India. For inquiries, collaborations, or professional opportunities, please contact him directly at <a href="mailto:chetanbhosale810@gmail.com" className="text-primary hover:underline">chetanbhosale810@gmail.com</a> or call <a href="tel:+918857811443" className="text-primary hover:underline">+91 8857811443</a>.
+          </p>
+        </div>
+      </footer>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What are Chetan Bhosale's primary areas of expertise?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Chetan Bhosale is a Full Stack Software Developer, DevOps Engineer, and AI Enthusiast. His core technical expertise includes Next.js, Node.js, React, Postgres, Redis, Docker, AWS, and building AI-powered solutions using LLMs."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is Chetan Bhosale's professional experience?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Chetan has over 2 years of full-time experience and 2 years of internship experience. He currently serves as a Founding Engineer at Linkrunner (October 2025 – Present). Previously, he worked as a Software Engineer at TransErg LLP @Petpooja (June 2024 – September 2025) and as a Full Stack Developer Intern at Your Assistant LLP."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What notable projects has Chetan Bhosale built?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Chetan has built several innovative projects, including DoviaAI (a no-code/low-code platform that generates functional apps and UI components instantly using prompts), TrafficMine (a website performance tracking and optimization tool), and GenChat (a platform to create custom AI-powered chatbots)."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is Chetan Bhosale's educational background?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Chetan completed his Bachelor of Computer Applications (BCA) from St. Xavier's College, Ahmedabad, graduating in 2024 with a CGPA of 7.8."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How can I contact Chetan Bhosale for opportunities or collaboration?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "You can reach Chetan via email at chetanbhosale810@gmail.com, by phone at +91 8857811443, or connect with him on LinkedIn and GitHub. He is based in Pune, India."
+                }
+              }
+            ]
+          })
+        }}
+      />
     </main>
   )
 }
