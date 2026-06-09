@@ -74,7 +74,7 @@ const Page = () => {
         <div className='flex-1 space-y-6'>
           <div className='space-y-4'>
             <h1 className='text-5xl font-bold font-[var(--font-archivo-black)]'>
-              Hi, I&apos;m Chetan Bhosale ✌️
+              Hi, I&apos;m <span itemScope itemType="https://schema.org/DefinedTerm" itemID="https://chetan-bhosale.vercel.app/#term-chetan-bhosale"><span itemProp="name">Chetan Bhosale</span><link itemProp="inDefinedTermSet" href="https://chetan-bhosale.vercel.app/#definedtermset" /><meta itemProp="description" content="Full Stack Software Engineer & DevOps Enthusiast from Pune, India, building scalable web applications, AI platforms, and cloud-native solutions." /></span> ✌️
             </h1>
             <p className='text-sm text-muted-foreground font-[var(--font-montserrat)]'>
               By Chetan Bhosale • Last updated: February 2025
@@ -117,7 +117,15 @@ const Page = () => {
           About
         </h2>
         <p className='text-primary/70'>
-          Chetan Bhosale is a Full Stack Software Engineer with 2+ years of full-time experience and 2 years of internship experience, specializing in building scalable, AI-powered, and cloud-native solutions.
+          <span itemScope itemType="https://schema.org/DefinedTerm" itemID="https://chetan-bhosale.vercel.app/#term-chetan-bhosale">
+            <span itemProp="name">Chetan Bhosale</span>
+            <link itemProp="inDefinedTermSet" href="https://chetan-bhosale.vercel.app/#definedtermset" />
+            <meta itemProp="description" content="Full Stack Software Engineer & DevOps Enthusiast from Pune, India, building scalable web applications, AI platforms, and cloud-native solutions." />
+          </span> is a <span itemScope itemType="https://schema.org/DefinedTerm" itemID="https://chetan-bhosale.vercel.app/#term-full-stack-engineer">
+            <span itemProp="name">Full Stack Software Engineer</span>
+            <link itemProp="inDefinedTermSet" href="https://chetan-bhosale.vercel.app/#definedtermset" />
+            <meta itemProp="description" content="A professional who designs, builds, and maintains both the front-end (user interface) and back-end (server, database, and APIs) of web applications." />
+          </span> with 2+ years of full-time experience and 2 years of internship experience, specializing in building scalable, AI-powered, and cloud-native solutions.
         </p>
       </div>
 
